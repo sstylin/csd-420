@@ -175,5 +175,5 @@ cython_debug/
 # documentation
 *.docx
 *.jpg
-\module-1\*.docx
-\module-1\*.jpg
+/module-1/*.docx
+/module-1/*.jpg
