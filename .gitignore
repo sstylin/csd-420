@@ -173,7 +173,7 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 # documentation
-.docx
-.jpg
-/module-1/.docx
-/module-1/.jpg
+*.docx
+*.jpg
+/module-1/*.docx
+/module-1/*.jpg
