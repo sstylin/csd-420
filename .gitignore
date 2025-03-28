@@ -177,3 +177,9 @@ cython_debug/
 *.jpg
 /module-1/*.docx
 /module-1/*.jpg
+/module-2/*.docx
+/module-2/*.jpg
+/module-3/*.docx
+/module-3/*.jpg
+/module-4/*.docx
+/module-4/*.jpg
