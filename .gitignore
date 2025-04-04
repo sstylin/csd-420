@@ -181,5 +181,10 @@ cython_debug/
 /module-2/*.jpg
 /module-3/*.docx
 /module-3/*.jpg
+/module-3/*.jpeg
 /module-4/*.docx
 /module-4/*.jpg
+/module-4/*.jpeg
+/module-5/*.docx
+/module-5/*.jpg
+/module-5/*.jpeg
