@@ -209,3 +209,6 @@ cython_debug/
 /module-12/*.docx
 /module-12/*.jpg
 /module-12/*.jpeg
+/module-9/Module9MySQL/nbproject/private/
+/module-9/Module9DatabaseManager/nbproject/private/
+/module-9/DatabaseManagement/nbproject/private/
