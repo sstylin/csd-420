@@ -1,0 +1,30 @@
+import javax.sql.rowset.CachedRowSet;
+import com.sun.rowset.CachedRowSetImpl;
+
+public class ActorDataRetriever {
+    public static void main(String[] args) {
+        try {
+            // Create a CachedRowSet instance
+            CachedRowSet rowSet = new CachedRowSetImpl();
+            
+            // Set database connection parameters
+            rowSet.setUrl("jdbc:mysql://localhost:3306/sakila");
+            rowSet.setUsername("root");
+            rowSet.setPassword("Bellevue2021");
+            
+            // Set the SQL command to execute
+            rowSet.setCommand("SELECT * FROM actor LIMIT 5");
+            rowSet.execute();
+            
+            // Move the cursor before the first row
+            rowSet.beforeFirst();
+            
+            // Iterate through the result set and print the desired column
+            while (rowSet.next()) {
+                System.out.println(rowSet.getString("first_name")); // Replace "first_name" with the actual column name
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
